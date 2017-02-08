@@ -47,9 +47,9 @@ var app = {
         console.log('Received Event: ' + id);
         
      if(typeof device != "undefined")// testa se a variavel já foi inicializada
-  {alert("hello world\n plugins OK")}
+  {alert("phonegap-start\n plugins OK")}
   else
-  {alert("hello world\n plugins NÃO carregados")}
+  {alert("phonegap-start\n plugins NÃO carregados")}
         
     }
 };
